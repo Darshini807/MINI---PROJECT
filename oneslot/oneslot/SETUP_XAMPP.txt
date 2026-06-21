@@ -1,0 +1,36 @@
+﻿ONESLOT PHP + MYSQL SETUP INSTRUCTIONS FOR XAMPP
+
+1. Install and open XAMPP.
+2. Start Apache and MySQL.
+3. Copy the folder named oneslot-php-mysql-final into:
+   C:\xampp\htdocs\
+
+4. Open phpMyAdmin:
+   http://localhost/phpmyadmin
+
+5. Create/import the database:
+   - Click Import
+   - Choose database.sql from this project folder
+   - Click Go
+
+6. Open the project:
+   http://localhost/oneslot-php-mysql-final/index.html
+
+7. Flow:
+   Splash screen -> home.php -> register.php/login.php -> services.php -> booking.php -> dashboard.php
+
+8. Admin login:
+   URL: http://localhost/oneslot-php-mysql-final/admin.php
+   Email: admin@oneslot.com
+   Password: admin123
+
+9. Database name:
+   oneslot_db
+
+10. Tables:
+   users
+   bookings
+
+Important:
+- Keep index.html, root style.css, and logo assets as they are for the splash screen.
+- If your MySQL username/password is different, edit config.php.
